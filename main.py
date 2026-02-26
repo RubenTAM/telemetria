@@ -68,3 +68,5 @@ def startup_event():
 @app.get("/latest")
 def latest():
     return latest_message
+
+print("TEST MQTT")
